@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../CPP-SimpleBegginerExamples/.idea/CPP-RefTypes.iml" filepath="$PROJECT_DIR$/../CPP-SimpleBegginerExamples/.idea/CPP-RefTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CPP-SimpleBeginnerExamples.iml" filepath="$PROJECT_DIR$/.idea/CPP-SimpleBeginnerExamples.iml" />
     </modules>
   </component>
 </project>

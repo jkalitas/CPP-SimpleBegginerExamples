@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPP_Begginer.dir/main.cpp.o"
+  "CMakeFiles/CPP_Begginer.dir/mainReferenceTypes.cpp.o"
   "CPP_Begginer.pdb"
   "CPP_Begginer"
 )

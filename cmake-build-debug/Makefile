@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jsilva/sandbox/CPP-SimpleBegginerExamples
+CMAKE_SOURCE_DIR = /home/jsilva/sandbox/CPP-SimpleBeginnerExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CPP_Begginer
+# Target rules for targets named CPP_Beginner
 
 # Build rule for target.
-CPP_Begginer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CPP_Begginer
-.PHONY : CPP_Begginer
+CPP_Beginner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CPP_Beginner
+.PHONY : CPP_Beginner
 
 # fast build rule for target.
-CPP_Begginer/fast:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/build
-.PHONY : CPP_Begginer/fast
+CPP_Beginner/fast:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/build
+.PHONY : CPP_Beginner/fast
 
-main.o: main.cpp.o
+mainReferenceTypes.o: mainReferenceTypes.cpp.o
 
-.PHONY : main.o
+.PHONY : mainReferenceTypes.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/main.cpp.o
-.PHONY : main.cpp.o
+mainReferenceTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o
+.PHONY : mainReferenceTypes.cpp.o
 
-main.i: main.cpp.i
+mainReferenceTypes.i: mainReferenceTypes.cpp.i
 
-.PHONY : main.i
+.PHONY : mainReferenceTypes.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/main.cpp.i
-.PHONY : main.cpp.i
+mainReferenceTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.i
+.PHONY : mainReferenceTypes.cpp.i
 
-main.s: main.cpp.s
+mainReferenceTypes.s: mainReferenceTypes.cpp.s
 
-.PHONY : main.s
+.PHONY : mainReferenceTypes.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/main.cpp.s
-.PHONY : main.cpp.s
+mainReferenceTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.s
+.PHONY : mainReferenceTypes.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CPP_Begginer"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... CPP_Beginner"
+	@echo "... mainReferenceTypes.o"
+	@echo "... mainReferenceTypes.i"
+	@echo "... mainReferenceTypes.s"
 .PHONY : help
 
 

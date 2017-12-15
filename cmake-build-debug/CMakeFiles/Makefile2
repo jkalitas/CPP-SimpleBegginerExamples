@@ -54,45 +54,45 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jsilva/sandbox/CPP-SimpleBegginerExamples
+CMAKE_SOURCE_DIR = /home/jsilva/sandbox/CPP-SimpleBeginnerExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/CPP_Begginer.dir
+# Target rules for target CMakeFiles/CPP_Beginner.dir
 
 # All Build rule for target.
-CMakeFiles/CPP_Begginer.dir/all:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/depend
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CPP_Begginer"
-.PHONY : CMakeFiles/CPP_Begginer.dir/all
+CMakeFiles/CPP_Beginner.dir/all:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/depend
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CPP_Beginner"
+.PHONY : CMakeFiles/CPP_Beginner.dir/all
 
 # Include target in all.
-all: CMakeFiles/CPP_Begginer.dir/all
+all: CMakeFiles/CPP_Beginner.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CPP_Begginer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPP_Begginer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBegginerExamples/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CPP_Begginer.dir/rule
+CMakeFiles/CPP_Beginner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPP_Beginner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CPP_Beginner.dir/rule
 
 # Convenience name for target.
-CPP_Begginer: CMakeFiles/CPP_Begginer.dir/rule
+CPP_Beginner: CMakeFiles/CPP_Beginner.dir/rule
 
-.PHONY : CPP_Begginer
-
-# clean rule for target.
-CMakeFiles/CPP_Begginer.dir/clean:
-	$(MAKE) -f CMakeFiles/CPP_Begginer.dir/build.make CMakeFiles/CPP_Begginer.dir/clean
-.PHONY : CMakeFiles/CPP_Begginer.dir/clean
+.PHONY : CPP_Beginner
 
 # clean rule for target.
-clean: CMakeFiles/CPP_Begginer.dir/clean
+CMakeFiles/CPP_Beginner.dir/clean:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/clean
+.PHONY : CMakeFiles/CPP_Beginner.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CPP_Beginner.dir/clean
 
 .PHONY : clean
 
