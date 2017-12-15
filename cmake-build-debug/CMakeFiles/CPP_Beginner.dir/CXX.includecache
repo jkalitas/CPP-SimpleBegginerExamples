@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp
+Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
 iostream
 -
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp
+iostream
+-
+Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
 

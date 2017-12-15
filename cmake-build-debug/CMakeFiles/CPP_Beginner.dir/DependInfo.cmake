@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o"
+  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/Person.cpp.o"
+  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

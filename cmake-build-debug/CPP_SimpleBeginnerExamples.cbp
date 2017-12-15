@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp">
 			<Option target="CPP_Beginner"/>
 		</Unit>
 		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/CMakeLists.txt">

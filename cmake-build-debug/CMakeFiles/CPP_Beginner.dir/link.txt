@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o  -o CPP_Beginner 
+/usr/bin/c++  -g   CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o CMakeFiles/CPP_Beginner.dir/Person.cpp.o  -o CPP_Beginner 

@@ -57,41 +57,67 @@ include CMakeFiles/CPP_Beginner.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_Beginner.dir/flags.make
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o: CMakeFiles/CPP_Beginner.dir/flags.make
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o: ../mainReferenceTypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o -c /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o: CMakeFiles/CPP_Beginner.dir/flags.make
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o: ../mainMemoryManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o -c /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp > CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.i
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp > CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.i
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainReferenceTypes.cpp -o CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.s
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp -o CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.s
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.requires:
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.requires:
 
-.PHONY : CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.requires
+.PHONY : CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.requires
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.provides: CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.provides.build
-.PHONY : CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.provides
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.provides: CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.provides
 
-CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.provides.build: CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o
+CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.provides.build: CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o
+
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.o: CMakeFiles/CPP_Beginner.dir/flags.make
+CMakeFiles/CPP_Beginner.dir/Person.cpp.o: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Beginner.dir/Person.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_Beginner.dir/Person.cpp.o -c /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Beginner.dir/Person.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp > CMakeFiles/CPP_Beginner.dir/Person.cpp.i
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Beginner.dir/Person.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp -o CMakeFiles/CPP_Beginner.dir/Person.cpp.s
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP_Beginner.dir/Person.cpp.o.requires
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.o.provides: CMakeFiles/CPP_Beginner.dir/Person.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/Person.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP_Beginner.dir/Person.cpp.o.provides
+
+CMakeFiles/CPP_Beginner.dir/Person.cpp.o.provides.build: CMakeFiles/CPP_Beginner.dir/Person.cpp.o
 
 
 # Object files for target CPP_Beginner
 CPP_Beginner_OBJECTS = \
-"CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o"
+"CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o" \
+"CMakeFiles/CPP_Beginner.dir/Person.cpp.o"
 
 # External object files for target CPP_Beginner
 CPP_Beginner_EXTERNAL_OBJECTS =
 
-CPP_Beginner: CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o
+CPP_Beginner: CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o
+CPP_Beginner: CMakeFiles/CPP_Beginner.dir/Person.cpp.o
 CPP_Beginner: CMakeFiles/CPP_Beginner.dir/build.make
 CPP_Beginner: CMakeFiles/CPP_Beginner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPP_Beginner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPP_Beginner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_Beginner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/CPP_Beginner.dir/build: CPP_Beginner
 
 .PHONY : CMakeFiles/CPP_Beginner.dir/build
 
-CMakeFiles/CPP_Beginner.dir/requires: CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o.requires
+CMakeFiles/CPP_Beginner.dir/requires: CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o.requires
+CMakeFiles/CPP_Beginner.dir/requires: CMakeFiles/CPP_Beginner.dir/Person.cpp.o.requires
 
 .PHONY : CMakeFiles/CPP_Beginner.dir/requires
 

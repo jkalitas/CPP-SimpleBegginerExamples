@@ -123,32 +123,59 @@ CPP_Beginner/fast:
 	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/build
 .PHONY : CPP_Beginner/fast
 
-mainReferenceTypes.o: mainReferenceTypes.cpp.o
+Person.o: Person.cpp.o
 
-.PHONY : mainReferenceTypes.o
+.PHONY : Person.o
 
 # target to build an object file
-mainReferenceTypes.cpp.o:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.o
-.PHONY : mainReferenceTypes.cpp.o
+Person.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/Person.cpp.o
+.PHONY : Person.cpp.o
 
-mainReferenceTypes.i: mainReferenceTypes.cpp.i
+Person.i: Person.cpp.i
 
-.PHONY : mainReferenceTypes.i
+.PHONY : Person.i
 
 # target to preprocess a source file
-mainReferenceTypes.cpp.i:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.i
-.PHONY : mainReferenceTypes.cpp.i
+Person.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/Person.cpp.i
+.PHONY : Person.cpp.i
 
-mainReferenceTypes.s: mainReferenceTypes.cpp.s
+Person.s: Person.cpp.s
 
-.PHONY : mainReferenceTypes.s
+.PHONY : Person.s
 
 # target to generate assembly for a file
-mainReferenceTypes.cpp.s:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainReferenceTypes.cpp.s
-.PHONY : mainReferenceTypes.cpp.s
+Person.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
+mainMemoryManagement.o: mainMemoryManagement.cpp.o
+
+.PHONY : mainMemoryManagement.o
+
+# target to build an object file
+mainMemoryManagement.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.o
+.PHONY : mainMemoryManagement.cpp.o
+
+mainMemoryManagement.i: mainMemoryManagement.cpp.i
+
+.PHONY : mainMemoryManagement.i
+
+# target to preprocess a source file
+mainMemoryManagement.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.i
+.PHONY : mainMemoryManagement.cpp.i
+
+mainMemoryManagement.s: mainMemoryManagement.cpp.s
+
+.PHONY : mainMemoryManagement.s
+
+# target to generate assembly for a file
+mainMemoryManagement.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/mainMemoryManagement.cpp.s
+.PHONY : mainMemoryManagement.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CPP_Beginner"
-	@echo "... mainReferenceTypes.o"
-	@echo "... mainReferenceTypes.i"
-	@echo "... mainReferenceTypes.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
+	@echo "... mainMemoryManagement.o"
+	@echo "... mainMemoryManagement.i"
+	@echo "... mainMemoryManagement.s"
 .PHONY : help
 
 
