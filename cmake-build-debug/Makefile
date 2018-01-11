@@ -123,6 +123,33 @@ CPP_Beginner/fast:
 	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/build
 .PHONY : CPP_Beginner/fast
 
+BasicDataTypes/BasicDataTypes.o: BasicDataTypes/BasicDataTypes.cpp.o
+
+.PHONY : BasicDataTypes/BasicDataTypes.o
+
+# target to build an object file
+BasicDataTypes/BasicDataTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.o
+.PHONY : BasicDataTypes/BasicDataTypes.cpp.o
+
+BasicDataTypes/BasicDataTypes.i: BasicDataTypes/BasicDataTypes.cpp.i
+
+.PHONY : BasicDataTypes/BasicDataTypes.i
+
+# target to preprocess a source file
+BasicDataTypes/BasicDataTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.i
+.PHONY : BasicDataTypes/BasicDataTypes.cpp.i
+
+BasicDataTypes/BasicDataTypes.s: BasicDataTypes/BasicDataTypes.cpp.s
+
+.PHONY : BasicDataTypes/BasicDataTypes.s
+
+# target to generate assembly for a file
+BasicDataTypes/BasicDataTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.s
+.PHONY : BasicDataTypes/BasicDataTypes.cpp.s
+
 Example.o: Example.cpp.o
 
 .PHONY : Example.o
@@ -204,32 +231,32 @@ MemoryManagement/Person.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/MemoryManagement/Person.cpp.s
 .PHONY : MemoryManagement/Person.cpp.s
 
-ReferenceTypes.o: ReferenceTypes.cpp.o
+ReferenceTypes/ReferenceTypes.o: ReferenceTypes/ReferenceTypes.cpp.o
 
-.PHONY : ReferenceTypes.o
+.PHONY : ReferenceTypes/ReferenceTypes.o
 
 # target to build an object file
-ReferenceTypes.cpp.o:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes.cpp.o
-.PHONY : ReferenceTypes.cpp.o
+ReferenceTypes/ReferenceTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.o
+.PHONY : ReferenceTypes/ReferenceTypes.cpp.o
 
-ReferenceTypes.i: ReferenceTypes.cpp.i
+ReferenceTypes/ReferenceTypes.i: ReferenceTypes/ReferenceTypes.cpp.i
 
-.PHONY : ReferenceTypes.i
+.PHONY : ReferenceTypes/ReferenceTypes.i
 
 # target to preprocess a source file
-ReferenceTypes.cpp.i:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes.cpp.i
-.PHONY : ReferenceTypes.cpp.i
+ReferenceTypes/ReferenceTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.i
+.PHONY : ReferenceTypes/ReferenceTypes.cpp.i
 
-ReferenceTypes.s: ReferenceTypes.cpp.s
+ReferenceTypes/ReferenceTypes.s: ReferenceTypes/ReferenceTypes.cpp.s
 
-.PHONY : ReferenceTypes.s
+.PHONY : ReferenceTypes/ReferenceTypes.s
 
 # target to generate assembly for a file
-ReferenceTypes.cpp.s:
-	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes.cpp.s
-.PHONY : ReferenceTypes.cpp.s
+ReferenceTypes/ReferenceTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_Beginner.dir/build.make CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.s
+.PHONY : ReferenceTypes/ReferenceTypes.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CPP_Beginner"
+	@echo "... BasicDataTypes/BasicDataTypes.o"
+	@echo "... BasicDataTypes/BasicDataTypes.i"
+	@echo "... BasicDataTypes/BasicDataTypes.s"
 	@echo "... Example.o"
 	@echo "... Example.i"
 	@echo "... Example.s"
@@ -276,9 +306,9 @@ help:
 	@echo "... MemoryManagement/Person.o"
 	@echo "... MemoryManagement/Person.i"
 	@echo "... MemoryManagement/Person.s"
-	@echo "... ReferenceTypes.o"
-	@echo "... ReferenceTypes.i"
-	@echo "... ReferenceTypes.s"
+	@echo "... ReferenceTypes/ReferenceTypes.o"
+	@echo "... ReferenceTypes/ReferenceTypes.i"
+	@echo "... ReferenceTypes/ReferenceTypes.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

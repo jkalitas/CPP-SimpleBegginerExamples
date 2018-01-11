@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.cpp">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.h">
+			<Option target="CPP_Beginner"/>
+		</Unit>
 		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.cpp">
 			<Option target="CPP_Beginner"/>
 		</Unit>
@@ -102,10 +108,10 @@
 		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.h">
 			<Option target="CPP_Beginner"/>
 		</Unit>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes.cpp">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.cpp">
 			<Option target="CPP_Beginner"/>
 		</Unit>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes.h">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.h">
 			<Option target="CPP_Beginner"/>
 		</Unit>
 		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/main.cpp">

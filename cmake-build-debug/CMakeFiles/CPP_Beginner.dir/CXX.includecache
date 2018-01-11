@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.cpp
+BasicDataTypes.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.h
+../Example.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
+iostream
+-
+
 /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.cpp
 Example.h
 /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
@@ -32,6 +42,16 @@ Person.h
 iostream
 -
 
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.cpp
+ReferenceTypes.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.h
+../Example.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
+iostream
+-
+
 /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/main.cpp
 iostream
 -
@@ -39,4 +59,8 @@ Example.h
 /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
 MemoryManagement/MemoryManagement.h
 /home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.h
+ReferenceTypes/ReferenceTypes.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.h
+BasicDataTypes/BasicDataTypes.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.h
 

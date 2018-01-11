@@ -11,6 +11,16 @@
 #include "Example.h"
 #include "MemoryManagement/MemoryManagement.h"
 #include "ReferenceTypes/ReferenceTypes.h"
+#include "BasicDataTypes/BasicDataTypes.h"
+
+/**
+ * Create a Basic Data Types example Object.
+ */
+void basicDataTypesExample(){
+    Example *dataTypes{};
+    dataTypes = new BasicDataTypes{};
+    delete(dataTypes);
+}
 
 /**
  * Create a Reference Types example Object.
@@ -40,6 +50,7 @@ void displayMenu(){
     std::cout << "#     0) QUIT"<<std::endl;
     std::cout << "#     1) MEMORY MANAGEMENT"<<std::endl;
     std::cout << "#     2) REFERENCE TYPES"<<std::endl;
+    std::cout << "#     3) BASIC DATA TYPES"<<std::endl;
     std::cout << std::endl;
     std::cerr << "Please Select an Option"<<std::endl;
 }
@@ -71,6 +82,9 @@ int main() {
                 break;
             case 2:
                 referenceTypesExample();
+                break;
+            case 3:
+                basicDataTypesExample();
                 break;
             default:
                 std::cout << std::endl;
