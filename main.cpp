@@ -10,6 +10,16 @@
 #include <iostream>
 #include "Example.h"
 #include "MemoryManagement/MemoryManagement.h"
+#include "ReferenceTypes/ReferenceTypes.h"
+
+/**
+ * Create a Reference Types example Object.
+ */
+void referenceTypesExample(){
+    Example *referenceTypes{};
+    referenceTypes = new ReferenceTypes{};
+    delete(referenceTypes);
+}
 
 /**
  * Create a Memory Management example Object.
@@ -60,6 +70,7 @@ int main() {
                 memoryManagementExample();
                 break;
             case 2:
+                referenceTypesExample();
                 break;
             default:
                 std::cout << std::endl;

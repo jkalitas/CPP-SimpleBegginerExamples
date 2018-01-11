@@ -1,7 +1,12 @@
-//
-// Created by jsilva on 11-01-2018.
-//
-
+/**
+ * @header MemoryManagement.h
+ *
+ * @brief MemoryManagement is class with examples of how to do memory
+ * management in C++.
+ *
+ * @author jkalitas 2017
+ *
+ * */
 #include "MemoryManagement.h"
 #include "Person.h"
 

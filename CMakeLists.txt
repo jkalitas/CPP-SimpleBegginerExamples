@@ -3,4 +3,4 @@ project(CPP_SimpleBeginnerExamples)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CPP_Beginner main.cpp MemoryManagement/Person.h MemoryManagement/Person.cpp Example.cpp Example.h  MemoryManagement/MemoryManagement.cpp MemoryManagement/MemoryManagement.h ReferenceTypes.cpp ReferenceTypes.h) #Uncomment to run main Memory Management
+add_executable(CPP_Beginner main.cpp MemoryManagement/Person.h MemoryManagement/Person.cpp Example.cpp Example.h  MemoryManagement/MemoryManagement.cpp MemoryManagement/MemoryManagement.h ReferenceTypes/ReferenceTypes.cpp ReferenceTypes/ReferenceTypes.h) #Uncomment to run main Memory Management
