@@ -6,17 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp
-Person.h
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.cpp
+Example.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
 
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
 iostream
 -
 
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.cpp
+MemoryManagement.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.h
+Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.h
+../Example.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.cpp
+Person.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.h
 iostream
 -
-Person.h
-/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h
+
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/main.cpp
+iostream
+-
+Example.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h
+MemoryManagement/MemoryManagement.h
+/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.h
 

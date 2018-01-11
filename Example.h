@@ -14,6 +14,10 @@
 
 #define CPP_SIMPLEBEGINNEREXAMPLES_EXAMPLE_H
 
+/**
+ * A super class to be extended by all the examples, giving a
+ * glimpse on heritage.
+ */
 class Example{
 public:
     /**

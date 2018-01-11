@@ -84,13 +84,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.cpp">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.cpp">
 			<Option target="CPP_Beginner"/>
 		</Unit>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Person.h">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.h">
 			<Option target="CPP_Beginner"/>
 		</Unit>
-		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/mainMemoryManagement.cpp">
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.cpp">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.h">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.cpp">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.h">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes.cpp">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes.h">
+			<Option target="CPP_Beginner"/>
+		</Unit>
+		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/main.cpp">
 			<Option target="CPP_Beginner"/>
 		</Unit>
 		<Unit filename="/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/CMakeLists.txt">
