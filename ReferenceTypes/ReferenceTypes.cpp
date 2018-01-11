@@ -36,7 +36,7 @@ std::string ReferenceTypes::getName() {
  */
 void ReferenceTypes::runExample() {
     //Using the std error std::cout only to give for better viewing on the console
-    std::cerr<< getName() << std::endl;
+    std::cout<< getName() << std::endl;
     int num = 3;
     int &refNum = num;
 //    int &refNum2; /*If we not initialize it gives a compile error*/

@@ -37,7 +37,7 @@ std::string MemoryManagement::getName() {
  */
 void MemoryManagement::runExample() {
     //Using the std error cout only to give for better viewing on the console
-    std::cerr<< getName() << std::endl;
+    std::cout<< getName() << std::endl;
 
     std::cout << "##############     Example 1     ##############\n"<< std::endl;
     /**

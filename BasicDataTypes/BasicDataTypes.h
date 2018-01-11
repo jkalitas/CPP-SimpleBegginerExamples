@@ -43,8 +43,16 @@ private:
      * showDataTypesSize
      */
     void showDataTypesSize();
-
-
+    /**
+     * Example of a short being overflowed and then we lost the
+     * value of it.
+     */
+    void overflowShort();
+    /**
+     * Example of a short being overflowed and then we lost the
+     * value of it.
+     */
+    void divisionErrors();
 };
 
 

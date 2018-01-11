@@ -52,7 +52,7 @@ void displayMenu(){
     std::cout << "#     2) REFERENCE TYPES"<<std::endl;
     std::cout << "#     3) BASIC DATA TYPES"<<std::endl;
     std::cout << std::endl;
-    std::cerr << "Please Select an Option"<<std::endl;
+    std::cout << "Please Select an Option"<<std::endl;
 }
 
 
@@ -73,7 +73,7 @@ int main() {
         switch (menuOption){
             case 0:
                 std::cout << std::endl;
-                std::cerr << "Leaving the program"<<std::endl;
+                std::cout << "Leaving the program"<<std::endl;
                 std::cout << std::endl;
                 quitSelected = true;
                 break;
