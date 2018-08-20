@@ -8,4 +8,5 @@ add_executable(CPP_Beginner main.cpp
         Example.cpp Example.h
         MemoryManagement/MemoryManagement.cpp MemoryManagement/MemoryManagement.h
         ReferenceTypes/ReferenceTypes.cpp ReferenceTypes/ReferenceTypes.h
-        BasicDataTypes/BasicDataTypes.cpp BasicDataTypes/BasicDataTypes.h)
+        BasicDataTypes/BasicDataTypes.cpp BasicDataTypes/BasicDataTypes.h
+        StreamsAndFiles/StreamAndFiles.cpp StreamsAndFiles/StreamAndFiles.h)
