@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP_Beginner.dir/MemoryManagement/MemoryManagement.cpp.o"
   "CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.o"
   "CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.o"
+  "CMakeFiles/CPP_Beginner.dir/StreamsAndFiles/StreamAndFiles.cpp.o"
   "CPP_Beginner.pdb"
   "CPP_Beginner"
 )

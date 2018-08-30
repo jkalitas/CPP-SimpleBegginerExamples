@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.o"
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/Example.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/Example.cpp.o"
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/MemoryManagement/MemoryManagement.cpp.o"
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/MemoryManagement/Person.cpp.o"
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.o"
-  "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/main.cpp" "/home/jsilva/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/main.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/BasicDataTypes/BasicDataTypes.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/BasicDataTypes/BasicDataTypes.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/Example.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/Example.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/MemoryManagement.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/MemoryManagement/MemoryManagement.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/MemoryManagement/Person.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/MemoryManagement/Person.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/ReferenceTypes/ReferenceTypes.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/ReferenceTypes/ReferenceTypes.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/StreamsAndFiles/StreamAndFiles.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/StreamsAndFiles/StreamAndFiles.cpp.o"
+  "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/main.cpp" "/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/cmake-build-debug/CMakeFiles/CPP_Beginner.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

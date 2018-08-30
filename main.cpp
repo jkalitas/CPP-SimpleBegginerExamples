@@ -13,6 +13,7 @@
 #include "ReferenceTypes/ReferenceTypes.h"
 #include "BasicDataTypes/BasicDataTypes.h"
 #include "StreamsIO/StreamIO.h"
+#include "ProcessingFiles/ProcessingFiles.h"
 /**
  * Create a Basic Data Types example Object.
  */
@@ -50,10 +51,20 @@ void streamsAndFilesExample() {
 }
 
 /**
+ * Create a Processing Files example Object.
+ */
+void filesProcessingExample() {
+    Example *processFiles{};
+    processFiles = new ProcessingFiles{};
+    delete (processFiles);
+}
+
+/**
  * A menu with all the examples.
  */
 void displayMenu() {
-  std::cout << std::endl;std::cout << std::endl;std::cout << std::endl;
+  std::cout << std::endl;
+  std::cout << std::endl;std::cout << std::endl;
   std::cout << "##############" << std::endl;
   std::cout << "#     MENU    " << std::endl;
   std::cout << "##############" << std::endl;
@@ -62,6 +73,7 @@ void displayMenu() {
   std::cout << "#     2) REFERENCE TYPES" << std::endl;
   std::cout << "#     3) BASIC DATA TYPES" << std::endl;
   std::cout << "#     4) STREAMS & FILES" << std::endl;
+  std::cout << "#     5) FILES PROCESSING" << std::endl;
   std::cout << std::endl;
   std::cout << "Please Select an Option" << std::endl;
 }
@@ -80,7 +92,6 @@ int main() {
         //The user input for option selection
         unsigned short menuOption;
         std::cin >> menuOption;
-
         switch (menuOption){
             case 0:
                 std::cout << std::endl;
@@ -97,6 +108,11 @@ int main() {
             case 3:
                 basicDataTypesExample();
                 break;
+            case 4:
+                streamsAndFilesExample();
+                break;
+            case 5:
+                filesProcessingExample();
             default:
                 std::cout << std::endl;
                 std::cout << "Please choose an available option on the menu, or zero if you want to quit"<<std::endl;

@@ -1,0 +1,3 @@
+/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/CMakeFiles/rebuild_cache.dir
+/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/CMakeFiles/edit_cache.dir
+/Users/borges_l/sandbox/CPP-SimpleBeginnerExamples/CMakeFiles/CPP_Beginner.dir

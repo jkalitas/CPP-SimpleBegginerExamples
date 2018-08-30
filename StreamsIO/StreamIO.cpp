@@ -156,5 +156,3 @@ void StreamIO::runExample() {
 //  miscellaneousOutput();
 
 }
-
-#include "StreamIO.h"
